@@ -2523,7 +2523,7 @@ __metadata:
     gluegun: latest
     html-minifier: ^4.0.0
     jest: ^24.1.0
-    json5: ^2.2.1
+    json5: ^2.2.2
     lodash: ^4.17.21
     micromatch: ^4.0.4
     parse5: ^3.0.3
@@ -2635,7 +2635,7 @@ __metadata:
     hash-sum: ^2.0.0
     jest: ^26.6.3
     jest-raw-loader: ^1.0.1
-    json5: ^2.1.3
+    json5: ^2.2.2
     liquidjs: 9.6.0
     lodash: ^4.17.20
     lru-cache: ^6.0.0
@@ -15032,7 +15032,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json5@npm:2.x, json5@npm:^2.1.2, json5@npm:^2.1.3, json5@npm:^2.2.1":
+"json5@npm:2.x, json5@npm:^2.1.2, json5@npm:^2.2.1":
   version: 2.2.1
   resolution: "json5@npm:2.2.1"
   bin:
@@ -15049,6 +15049,15 @@ __metadata:
   bin:
     json5: lib/cli.js
   checksum: e76ea23dbb8fc1348c143da628134a98adf4c5a4e8ea2adaa74a80c455fc2cdf0e2e13e6398ef819bfe92306b610ebb2002668ed9fc1af386d593691ef346fc3
+  languageName: node
+  linkType: hard
+
+"json5@npm:^2.2.2":
+  version: 2.2.3
+  resolution: "json5@npm:2.2.3"
+  bin:
+    json5: lib/cli.js
+  checksum: 2a7436a93393830bce797d4626275152e37e877b265e94ca69c99e3d20c2b9dab021279146a39cdb700e71b2dd32a4cebd1514cd57cee102b1af906ce5040349
   languageName: node
   linkType: hard
 
