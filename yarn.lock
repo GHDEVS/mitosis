@@ -2321,7 +2321,7 @@ __metadata:
   resolution: "@builder.io/e2e-app-qwik-output@workspace:e2e/e2e-app-qwik-output"
   dependencies:
     "@builder.io/e2e-app": "workspace:*"
-    "@builder.io/qwik": 0.0.103
+    "@builder.io/qwik": 0.21.0
     "@types/eslint": 8.4.2
     "@types/node": latest
     "@typescript-eslint/eslint-plugin": 5.27.0
@@ -2356,7 +2356,7 @@ __metadata:
   dependencies:
     "@builder.io/mitosis": "workspace:*"
     "@builder.io/mitosis-cli": "workspace:*"
-    "@builder.io/qwik": 0.0.103
+    "@builder.io/qwik": 0.21.0
     concurrently: ^7.3.0
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -2367,7 +2367,7 @@ __metadata:
     typescript: ^4.7.4
     vue: ~2.6
   peerDependencies:
-    "@builder.io/qwik": 0.0.103
+    "@builder.io/qwik": 0.21.0
     react: ^18.2.0
     react-dom: ^18.2.0
     solid-js: ^1.4.5
@@ -2381,7 +2381,7 @@ __metadata:
   resolution: "@builder.io/e2e-qwik@workspace:e2e/e2e-qwik"
   dependencies:
     "@builder.io/e2e-app-qwik-output": "workspace:*"
-    "@builder.io/qwik": 0.0.103
+    "@builder.io/qwik": 0.21.0
     "@types/eslint": 8.4.2
     "@types/express": 4.17.13
     "@types/node": ^16
@@ -2654,10 +2654,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@builder.io/qwik@npm:0.0.103":
-  version: 0.0.103
-  resolution: "@builder.io/qwik@npm:0.0.103"
-  checksum: 98363e910302a85d458b45f78d45033d728ce56b7fbd18a85e80decf2b6da98c75d6175ce239db33b7a088bda7cc73a54589b61b6d7ccfd755aae466dbd95f7d
+"@builder.io/qwik@npm:0.21.0":
+  version: 0.21.0
+  resolution: "@builder.io/qwik@npm:0.21.0"
+  peerDependencies:
+    undici: ^5.14.0
+  bin:
+    qwik: qwik.cjs
+  checksum: 8e4ee0f55fd7c3e627cff9f797eb558ed97be48c4f239430597c14547365ae9ad3b728a0883ad3396110a0177909d504eafeede1028c4fcf51e16da178ac3376
   languageName: node
   linkType: hard
 
